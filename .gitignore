@@ -7,7 +7,6 @@
 
 # Sensitive variable and backend config files
 terraform.tfvars
-backend.conf
 
 # Optional editor or system files
 *.log
