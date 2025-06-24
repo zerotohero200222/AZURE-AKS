@@ -1,4 +1,7 @@
 provider "azurerm" {
-  features {}
-  # No hardcoded subscription_id - Azure will detect it automatically
+  features {
+    resource_group {
+      prevent_deletion_if_contains_resources = false
+    }
+  }
 }
