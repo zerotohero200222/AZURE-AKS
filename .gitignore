@@ -1,0 +1,16 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform provider plugin downloads
+.terraform/
+
+# Sensitive variable and backend config files
+terraform.tfvars
+backend.conf
+
+# Optional editor or system files
+*.log
+*.bak
+.DS_Store
+*.swp
