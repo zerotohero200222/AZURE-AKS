@@ -1,8 +1,8 @@
 # Environment-specific values
 
-resource_group_name = "aks-dev-rg"
+resource_group_name = "aks-dev-rg1"
 location            = "East US"
-aks_cluster_name    = "myAKSCluster"
+aks_cluster_name    = "myAKSCluster1"
 node_count          = 2
 node_size           = "Standard_DS2_v2"
 kubernetes_version = "1.32.5"
